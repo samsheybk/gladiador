@@ -96,7 +96,7 @@ function HeroVisual() {
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-12">
       <div className="absolute inset-0 bg-gradient-to-b from-black via-black to-transparent z-0" />
 
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full opacity-20"
@@ -128,8 +128,7 @@ export default function Hero() {
 
             <Reveal delay={200}>
               <p className="text-base sm:text-lg lg:text-xl text-gray-400 max-w-xl mb-6 lg:mb-8">
-                Desarrollo de software a la medida, automatización inteligente y
-                procesamiento de datos. Convertimos tu visión en resultados que escalan.
+                Trabajamos con las mejores <span className="text-electric-500 font-semibold">herramientas de IA</span> para gestionar proyectos en tiempo récord. Desarrollo de software a la medida, automatización inteligente y procesamiento de datos.
               </p>
             </Reveal>
 

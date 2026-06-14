@@ -81,7 +81,7 @@ export default function Contact() {
                 <input
                   type="tel"
                   id="phone"
-                  placeholder="+52 55 1234 5678"
+                  placeholder="+58 412 844 5726"
                   className="input-glass"
                 />
               </div>
@@ -109,27 +109,6 @@ export default function Contact() {
                   <option value="automation" className="bg-gray-900">Automatización de Procesos</option>
                   <option value="consulting" className="bg-gray-900">Consultoría Tecnológica</option>
                   <option value="other" className="bg-gray-900">Otro</option>
-                </select>
-              </div>
-              <div>
-                <label htmlFor="budget" className="block text-sm text-gray-400 mb-2">
-                  Presupuesto Estimado
-                </label>
-                <select
-                  id="budget"
-                  className="input-glass appearance-none"
-                  style={{
-                    backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23666'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E")`,
-                    backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'right 12px center',
-                    backgroundSize: '16px',
-                  }}
-                >
-                  <option value="" disabled selected className="bg-gray-900">Selecciona un rango</option>
-                  <option value="5k-15k" className="bg-gray-900">$5,000 - $15,000 USD</option>
-                  <option value="15k-50k" className="bg-gray-900">$15,000 - $50,000 USD</option>
-                  <option value="50k+" className="bg-gray-900">$50,000+ USD</option>
-                  <option value="undefined" className="bg-gray-900">Aún no definido</option>
                 </select>
               </div>
             </div>

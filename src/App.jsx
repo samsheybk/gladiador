@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import WhatsApp from './components/WhatsApp'
 
 export default function App() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <WhatsApp />
       </div>
     </div>
   )

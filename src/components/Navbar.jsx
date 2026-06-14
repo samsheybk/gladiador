@@ -29,12 +29,10 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <a href="#" className="flex items-center gap-2.5 group">
-            <div className="w-9 h-9 rounded-lg bg-electric-500 flex items-center justify-center font-black text-sm font-display transition-transform duration-300 group-hover:scale-110">
-              G
-            </div>
-            <span className="font-display font-bold text-lg tracking-tight">
-              GLADIADOR
-            </span>
+            <img src="/logo.svg" alt="GLADIADOR" className="h-10 w-auto transition-all duration-300 group-hover:scale-110" style={{ filter: 'brightness(0) invert(1)', transition: 'filter 0.3s' }}
+              onMouseEnter={e => e.target.style.filter = 'brightness(0) saturate(100%) invert(34%) sepia(100%) saturate(1200%) hue-rotate(195deg)'}
+              onMouseLeave={e => e.target.style.filter = 'brightness(0) invert(1)'}
+            />
           </a>
 
           <div className="hidden md:flex items-center gap-8">
